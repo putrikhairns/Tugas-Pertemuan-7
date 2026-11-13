@@ -83,16 +83,13 @@ else
 mhs[i].mk[j].bobot := 0;
 
 // skor mata kuliah = sks dikali dengan bobot nilai
-    mhs[i].mk[j].skor :=
-        mhs[i].mk[j].sks * mhs[i].mk[j].bobot;
+    mhs[i].mk[j].skor := mhs[i].mk[j].sks * mhs[i].mk[j].bobot;
 
 // menambahkan sks ke total sks sebelumnya
-    mhs[i].totalSKS :=
-        mhs[i].totalSKS + mhs[i].mk[j].sks;
+    mhs[i].totalSKS := mhs[i].totalSKS + mhs[i].mk[j].sks;
 
 // menambahkan skor ke total skor sebelumnya
-    mhs[i].totalSkor :=
-        mhs[i].totalSkor + mhs[i].mk[j].skor;
+    mhs[i].totalSkor := mhs[i].totalSkor + mhs[i].mk[j].skor;
 end;
 
 // menghitung ip = total skor dibagi total SKS
