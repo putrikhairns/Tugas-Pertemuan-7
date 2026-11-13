@@ -92,7 +92,7 @@ mhs[i].mk[j].bobot := 0;
     mhs[i].totalSkor := mhs[i].totalSkor + mhs[i].mk[j].skor;
 end;
 
-// menghitung ip = total skor dibagi total SKS
+// menghitung ip = total skor dibagi total sks
     mhs[i].ip := mhs[i].totalSkor / mhs[i].totalSKS;
 end;
 
