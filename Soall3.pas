@@ -1,4 +1,4 @@
-program HasilStudiMahasiswa;
+program Soall3;
 uses crt;
 
 type
