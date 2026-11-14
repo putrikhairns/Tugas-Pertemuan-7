@@ -70,9 +70,8 @@ for j := 1 to mhs[i].jumlahMK do // jumlah pengulangan mengikuti jumlah mata kul
         write('Nilai (A/B+/B/C+/C/D/E): ');
         readln(mhs[i].mk[j].nilai);
 
-//mengubah nilai huruf menjadi bobot
-if mhs[i].mk[j].nilai = 'A' then
-mhs[i].mk[j].bobot := 4
+// mengubah nilai huruf menjadi bobot
+if mhs[i].mk[j].nilai = 'A' then mhs[i].mk[j].bobot := 4
         else if mhs[i].mk[j].nilai = 'B+' then mhs[i].mk[j].bobot := 3.5
             else if mhs[i].mk[j].nilai = 'B' then mhs[i].mk[j].bobot := 3
                 else if mhs[i].mk[j].nilai = 'C+' then mhs[i].mk[j].bobot := 2.5
