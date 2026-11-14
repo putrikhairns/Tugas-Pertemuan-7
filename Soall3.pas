@@ -78,8 +78,7 @@ if mhs[i].mk[j].nilai = 'A' then mhs[i].mk[j].bobot := 4
                     else if mhs[i].mk[j].nilai = 'C' then mhs[i].mk[j].bobot := 2
                         else if mhs[i].mk[j].nilai = 'D' then mhs[i].mk[j].bobot := 1
                             else if mhs[i].mk[j].nilai = 'E' then mhs[i].mk[j].bobot := 0
-else
-mhs[i].mk[j].bobot := 0;
+else mhs[i].mk[j].bobot := 0;
 
 // skor mata kuliah = sks dikali dengan bobot nilai
     mhs[i].mk[j].skor := mhs[i].mk[j].sks * mhs[i].mk[j].bobot;
