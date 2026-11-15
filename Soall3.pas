@@ -67,7 +67,7 @@ for j := 1 to mhs[i].jumlahMK do // jumlah pengulangan mengikuti jumlah mata kul
         write('Jumlah SKS       : ');
         readln(mhs[i].mk[j].sks);
 
-        write('Nilai (A/B+/B/C+/C/D/E): ');
+        write('Masukkan nilai dengan huruf besar (A/B+/B/C+/C/D/E): ');
         readln(mhs[i].mk[j].nilai);
 
 // mengubah nilai huruf menjadi bobot
